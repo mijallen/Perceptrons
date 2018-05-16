@@ -32,7 +32,7 @@ result = andPctn.evalutate([ // (1 AND NOT(1)) -> FALSE
 ]);
 console.log(result);
 
-result = notPctn.evalutate([ // NOT(0 OR 0) -> FALSE
+result = notPctn.evalutate([ // NOT(0 OR 0) -> TRUE
     Number(orPctn.evalutate([0, 0]))
 ]);
 console.log(result);
