@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outFile": "script.js",
+        "target": "ES6"
+    },
+    "files": [
+        "Perceptron.ts",
+        "test.ts"
+    ]
+}
